@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".ui.ButtonTestActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="按钮1"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:id="@+id/btnButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_btn2"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="@string/btn_2" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_btn3"
+        android:layout_marginTop="10dp"
+        android:text="按钮3"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_btn4"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:text="按钮4"/>
+</LinearLayout>

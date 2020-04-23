@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".Broadcast.BroadcastActivity">
+
+    <Button
+        android:id="@+id/btn_dynamic_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="动态注册"/>
+
+    <Button
+        android:id="@+id/btn_static_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_dynamic_register"
+        android:text="静态注册"/>
+
+    <Button
+        android:id="@+id/btn_self_std_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_static_register"
+        android:text="自定义标准广播"/>
+
+    <Button
+        android:id="@+id/btn_self_order_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_self_std_register"
+        android:text="自定义有序广播"/>
+
+    <Button
+        android:id="@+id/btn_send_broadcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_self_order_register"
+        android:text="发送广播"/>
+
+    <Button
+        android:id="@+id/btn_local_broadcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_self_order_register"
+        android:text="本地广播"/>
+
+</RelativeLayout>

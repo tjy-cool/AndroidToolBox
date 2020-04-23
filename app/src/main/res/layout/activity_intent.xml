@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Intent.IntentActivity">
+
+    <Button
+        android:id="@+id/btn_ActionView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="www.baidu.com"/>
+
+    <Button
+        android:id="@+id/btn_ActionDIAL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="phone"/>
+
+    <Button
+        android:id="@+id/btn_putExtra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="putExtra"/>
+
+    <Button
+        android:id="@+id/btn_ForResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="startActivityForResult(intent"/>
+
+    <TextView
+        android:id="@+id/intent_logview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="5dp"
+        android:background="@color/LogViewBackground"/>
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/ui_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UI演示"/>
+
+    <Button
+        android:id="@+id/intent_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Intent演示"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btnActivity_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_marginTop="15dp"
+        android:text="Activit演示"/>
+
+    <Button
+        android:id="@+id/btnBroadcast_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:text="Broadcast 演示"/>
+
+    <Button
+        android:id="@+id/btnHander"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Handler 演示"/>
+
+    <Button
+        android:id="@+id/btnMyHandler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Handler演示2"/>
+
+    <Button
+        android:id="@+id/btnGL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GL 演示"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
